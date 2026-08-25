@@ -1,0 +1,11 @@
+[project]
+name = "repohealth"
+version = "0.1.0"
+description = "Repository health checker: scores local repos across docs, metadata, git hygiene, and freshness signals."
+requires-python = ">=3.10"
+
+[project.scripts]
+repohealth = "repohealth:main"
+
+[tool.setuptools]
+py-modules = ["repohealth"]
