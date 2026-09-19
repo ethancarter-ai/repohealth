@@ -47,4 +47,4 @@ repohealth/
 
 ## Tags / keywords
 
-cli, repo-health, git, local-scan, docs, metadata, ci, tests
+cli, python, repo-health, git, ci
