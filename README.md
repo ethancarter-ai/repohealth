@@ -30,6 +30,7 @@ repohealth /path/to/repo --fail-below 10
 ```
 
 Exit codes:
+
 - `0` when score is at or above `--fail-below`.
 - `1` when the target path is invalid.
 - `2` when score is below `--fail-below`.
@@ -37,14 +38,20 @@ Exit codes:
 ## Project structure
 
 ```
-repohealth/
-  README.md
-  pyproject.toml
-  repohealth.py
-  tests/
-    test_repohealth.py
+.github/
+  workflows/
+    ci.yml
+.gitignore
+CONTRIBUTING.md
+LICENSE
+Makefile
+README.md
+pyproject.toml
+repohealth.py
+tests/
+  test_repohealth.py
 ```
 
 ## Tags / keywords
 
-cli, python, repo-health, git, ci
+cli, git, python, repo-health
